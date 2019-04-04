@@ -1,6 +1,5 @@
 module.exports = {
-  base: '/markdown/dist/',
-  dest:'dist',
+  base: '/markdown/',
   title: '健康160前端分享',
   themeConfig: {
     nav: [
