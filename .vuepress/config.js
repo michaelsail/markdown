@@ -40,6 +40,65 @@ module.exports = {
           '/eslint/eslint.md',
         ]
       },
+        {
+            title: 'Wechat-vue',
+            collapsable: true,
+            children: [
+                '/wechatvue/default.md',
+                '/wechatvue/wechatvue.md',
+                '/wechatvue/payMixin.md',
+                '/wechatvue/scrolly.md',
+                '/wechatvue/uploadimg.md',
+                '/wechatvue/seoContent.md',
+                '/wechatvue/getLatLng.md',
+                '/wechatvue/shareFunc.md',
+                '/wechatvue/表单验证.md',
+                '/wechatvue/自定义指令.md',
+            ]
+        },
+        {
+            title: '智能页面',
+            collapsable: true,
+            children: [
+                '/diycms/',
+                '/diycms/main.md',
+            ]
+        },
+        {
+            title: 'IM即时通讯',
+            collapsable: true,
+            children: [
+                '/IM/'
+            ]
+        },
+        // {
+        //     title: 'wechat-vue',
+        //     collapsable: true,
+        //     children: [
+        //         '/wechat-vue/'
+        //     ]
+        // },
+        // {
+        //     title: '91160-com-vue',
+        //     collapsable: true,
+        //     children: [
+        //         '/91160comvue/index.md'
+        //     ]
+        // },
+        {
+            title: 'h91160-vue',
+            collapsable: true,
+            children: [
+                '/h91160vue/h91160vue.md'
+            ]
+        },
+        // {
+        //     title: '智能页面',
+        //     collapsable: true,
+        //     children: [
+        //         '/intelligent/index.md'
+        //     ]
+        // },
     ]
   }
 }
