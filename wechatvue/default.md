@@ -227,3 +227,28 @@ import { getUrlParam, readCookie } from './utils/util.js'
         }
     }
     ```
+
+
+## 路由参数设置说明
+app.vue中添加keep-alive后，在roter中的meta配置keepAlive才有效果
+```javascript
+<keep-alive >
+    <router-view  v-if="$route.meta.keepAlive" ></router-view>
+</keep-alive>
+<router-view  v-if="!$route.meta.keepAlive"></router-view>
+```
+
+
+```javascript
+{ name:'healthIndex', path: 'health/index.html', component: HealthIndex,  
+    meta: { 
+        canShare: true,//app右上角是否展示分享按钮
+        needLogin: true, //访问这个页面是否需要登录
+        title: '服务号',//页面标题
+        keepAlive: true,//返回到此页面时是否缓存之前访问内容
+        callNativeApp: true, //访问此页面判断是否是app中
+        template: 'health-goods-detail',//健康商品详情页拉原生app
+    }
+},
+```
+
