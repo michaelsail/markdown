@@ -100,6 +100,20 @@ module.exports = {
         //         '/intelligent/index.md'
         //     ]
         // },
+        {
+            title: '安全防范知识点',
+            collapsable: true,
+            children: [
+                '/safety/main.md',
+            ]
+        },
+        {
+            title: 'h5前端兼容',
+            collapsable: true,
+            children: [
+                '/compatible/main.md',
+            ]
+        },
     ]
   }
 }
